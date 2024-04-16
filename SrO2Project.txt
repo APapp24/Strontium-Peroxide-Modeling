@@ -1,0 +1,143 @@
+The essence of the problem is that we have to keep a chemical reaction within a narrow temperature range of 37 to 45 degrees celsius. The chemical reaction is exothermic and the the reactor that
+holds the reaction is chilled, pulling heat away. What we do is that we have some of the reactants in the reactor at a specific temperature (strontium hydroxide and aqua ammonia) we then 
+pump in the limiting agent (H2O2) the reaction proceeds and generates heat, if we see that the reaction is getting too hot, we stop pumping in the H2O2, if its getting too cold, we pump 
+in more H2O2. 
+This works to some extent but leads to inconsistent batch quality. The goal of the project is to come up with a set of coupled differential equations, one for the temperature of the system, another
+for the concentration of H2O2, then modify the parameters of the coupled pair of differential equations so that they fit, as best as possible, the experimental data of temperature vs time (which is
+in the form of a 4th order polynomial expression) I am thinking of using nelson-mead for this.
+
+Here is some information about the reactor:
+It is a large reactor that appears to be a hemisphere shape on the bottom, and cylinder on the top. The radius of the cylinder is the same as the hemisphere which is 21.9 inches. From the bottom 
+of the hemisphere to the top of the cylinder is 30 inches.
+The reactor is jacketed, meaning coolant passes on the outside. The wall thickness between the coolant and reactor contents is 1/4 inch stainless steel
+There is a mixer on the top of the reactors that ensures proper mixing.
+
+Here is the procedure for producing SrO2, take note of the contents of the reactor at the start of the H2O2 dumping step:
+
+itle: General SrO2 Procedure
+Author: AJ Papp
+Date: 01/31/2024
+
+1. Introduction
+This is the general procedure for producing SrO2. This procedure was refined over a number of batches, with incremental improvements each batch, until a consistent product quality was reached. There is still room for improvement in procedure, technique, and machinery. Further change in all of these fields should be considered, especially for full scale production.
+
+Proper PPE must be worn while handling hazardous materials, specifically the Sr(NO3)2, aqua ammonia, and H2O2. Refer to the MSDS for information on these materials or to the brief hazard description further in this document.
+
+2. Materials
+The materials to be charged to the reactor are as follows:
+
+    146 Liters of soft water
+    68 Kg of Sr(NO3)2 (CAS # 10042-76-9)
+    82 Kg of Aqua Ammonia (CAS # 1336-21-6)
+    68 Kg of H2O2 (CAS # 7722-84-1)
+
+The filtered product will be washed outside the reactor with:
+
+    20 Liters of 10% H2O2
+
+Which should yield around:
+
+    30 Kg of SrO2 (CAS # 1314-18-7)
+
+3. Method
+Stage 1:
+
+
+    Preheat oven to 300°F
+
+    Charge 146 Liters of soft water to the reactor. Refer to mixer-arm to water level chart.
+
+    Set the agitator to low speed (around 10-20 on the VFD)
+
+    Heat the reactor to 60°C.
+
+    Break up the Sr(NO3)2 into chunks no greater than 8" in diameter.
+
+    Add 68 Kg of Sr(NO3)2 (3 50-lb bags) to the reactor.
+
+    Wait until all Sr(NO3)2 has dissolved (around 20-30 minutes) before proceeding to Stage 2.
+
+
+Stage 2:
+
+
+    Add 88 Kg of Aqua Ammonia to the reactor.
+
+    Set agitator to high (90 on the VFD)
+
+    Stage the H2O2 pumps, ensure enough H2O2 is present in the single barrel for the charge. Set the peristaltic pump to 12 LPM (its maximum)
+
+    Clean out the filter, soak the filter membrane with water thoroughly. Ensure the filter has no major vacuum leaks and that the vacuum pump is working as expected.
+
+    Prepare the H2O2 wash liquid by diluting 4 kg of concentrated H2O2 with 16 kg of water in a sufficiently large vessel.
+
+    Stage clean oven trays on a pallet nearby the filter and ready to be transported quickly by forklift.
+
+
+Stage 3:
+
+
+    Ensure oven has reached 300°F
+
+    The following steps should be taken with haste. SrO2 quality, specifically the free oxygen percentage, diminishes the longer the following steps take until the product is dry:
+
+    Set the chiller temperature to 5°C. (A temperature far below necessary so as to avoid compressor lockout.)
+
+    Catch the reactor on the downslide at 35°C and proceed to the next bullet immediately.
+
+    Add 17 Kg of H2O2 to the reactor (one-fourth of the total 68 Kg) using the low setting of the drum pump. Be aware you will need to pull the feed end of the pump above the waterline to stop a siphoning effect.
+
+    Observe the peak temperature rise (44-46°C nominal).
+
+    Allow the reactor to cool to 44.5°C.
+
+    Add another 5.6 Kg to finish off the initial dump using the drum pump (Difference between one-third and one-fourth of total H2O2).
+
+    Cool to 44°C.
+
+    Add the remaining 45.3 Kg of H2O2 to the reactor using the peristaltic pump at a rate of 12 liters per minute, ensuring the temperature stays below 45°C and above 38°C.
+
+    If the temperature is falling too rapidly, supplement the peristaltic pump with the drum pump. If the temperature is threatening 45°C, turn off the peristaltic pump and allow cooling to take place.
+
+
+Stage 4:
+
+
+    Cool to 37°C.
+
+    Discharge the contents from the reactor into the filter.
+
+    Perform vacuum filtration.
+
+    Once all the liquid has been purged close the vacuum filter valve and wash the filter cake with wash solution prepared earlier.
+
+    Perform vacuum filtration again.
+
+    Transfer the rest of the filter cake into the 12 oven trays.
+
+
+Stage 5:
+
+
+    Place trays in a preheated oven at 300°F (150°C).
+
+    After kickoff, set temperature to 275°F (135°C).
+
+    After kickoff, stir tray contents with a hoe.
+
+    Repeat stirring every 1.5 hours until dry, no more than 5 hours in oven.
+
+    If the product is still not dry by the end of the five hours, set the temperature to 110°C and leave overnight. The product must not be left at >130°C for extended periods of time as the thermal decomposition of SrO2 will take place.
+
+
+Stage 6:
+
+
+    Remove from oven and break up any SrO2 clumps.
+
+    Store in bags within Romex containers. Be sure to label the container with the contents and batch number.
+
+    Set aside a sample of around 100 grams in a sample bag for laboratory analysis. Be sure to properly label bag.
+
+
+  
